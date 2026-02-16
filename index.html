@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerFit Gym</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons (not a framework, just a font library) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Fixed Navigation Bar -->
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">PowerFit Gym</h1>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Hamburger menu for mobile -->
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Body. Transform Your Life.</h1>
+            <p>Join PowerFit Gym today and start your journey to a healthier, stronger you. Our expert trainers and state-of-the-art facilities are here to support your goals.</p>
+            <a href="#contact" class="cta-button">Join Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>PowerFit Gym is your local hub for fitness excellence. We offer a welcoming environment with top-notch equipment and personalized training to help you achieve your fitness aspirations.</p>
+            <div class="highlights">
+                <div class="highlight-box">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Certified Trainers</h3>
+                    <p>Our trainers are certified professionals dedicated to your success.</p>
+                </div>
+                <div class="highlight-box">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Modern Equipment</h3>
+                    <p>State-of-the-art machines for all your training needs.</p>
+                </div>
+                <div class="highlight-box">
+                    <i class="fas fa-clock"></i>
+                    <h3>Flexible Timings</h3>
+                    <p>Open 24/7 to fit your schedule.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <i class="fas fa-weight-hanging"></i>
+                    <h3>Weight Training</h3>
+                    <p>Build strength with our comprehensive weight training programs.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Cardio Training</h3>
+                    <p>Improve endurance with our cardio equipment and classes.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-user-friends"></i>
+                    <h3>Personal Training</h3>
+                    <p>One-on-one sessions tailored to your goals.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Nutrition Plans</h3>
+                    <p>Custom meal plans to fuel your fitness journey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Plans Section -->
+    <section id="membership" class="membership">
+        <div class="container">
+            <h2>Membership Plans</h2>
+            <div class="pricing-cards">
+                <div class="card">
+                    <h3>Basic</h3>
+                    <p class="price">$29/month</p>
+                    <ul>
+                        <li>Access to gym equipment</li>
+                        <li>Basic locker room</li>
+                    </ul>
+                </div>
+                <div class="card highlighted">
+                    <h3>Standard</h3>
+                    <p class="price">$49/month</p>
+                    <ul>
+                        <li>All Basic features</li>
+                        <li>Group classes</li>
+                        <li>Nutrition consultation</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Premium</h3>
+                    <p class="price">$79/month</p>
+                    <ul>
+                        <li>All Standard features</li>
+                        <li>Personal training sessions</li>
+                        <li>Spa access</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-cards">
+                <div class="card">
+                    <p>"PowerFit Gym changed my life! The trainers are amazing."</p>
+                    <cite>- John Doe</cite>
+                </div>
+                <div class="card">
+                    <p>"Great equipment and flexible hours. Highly recommend!"</p>
+                    <cite>- Jane Smith</cite>
+                </div>
+                <div class="card">
+                    <p>"The nutrition plans helped me reach my goals faster."</p>
+                    <cite>- Alex Johnson</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Fitness St, City, State 12345</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@powerfitgym.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2023 PowerFit Gym. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript -->
+    <script src="script.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
